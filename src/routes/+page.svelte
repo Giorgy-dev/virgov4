@@ -55,7 +55,7 @@
 	{#each home.sections as item}
 		<Section {...item} />
 	{/each}
-	<Contact />
+	<!--<Contact />-->
 </div>
 <!--
 	<img src={grid} alt="" class="mb-12 w-full" />
