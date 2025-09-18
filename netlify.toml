@@ -2,4 +2,4 @@
 	command = "npm run build"
 	publish = "build"
 [[plugins]]
-  package = "@netlify/plugin-emails"
+	package = "@netlify/plugin-emails"
