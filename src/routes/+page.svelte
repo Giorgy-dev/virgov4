@@ -1,12 +1,11 @@
 <script lang="ts">
 	import home from '$lib/jsons/home.json';
-
 	import { Video } from 'flowbite-svelte';
-	import heroVideo from '$lib/assets/videos/abstract-hero-2.mp4';
-	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_2.svg';
+	import heroVideo from '$lib/assets/videos/abstract-hero-3.mp4';
+	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_5.svg';
 	import Section from '$lib/components/Section.svelte';
-	import Contact from '$lib/components/Contact.svelte';
-	//import grid from '$lib/assets/svgs/grid.svg';
+	//import Contact from '$lib/components/Contact.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <div class="flex flex-col gap-12">
@@ -24,12 +23,32 @@
 			</h2>
 		</div>
 
-		<div class="absolute bottom-0 hidden w-full flex-row gap-12 bg-white p-12 lg:flex">
-			{#each home.highlited as item}
-				<div class="flex max-w-1/4 flex-col gap-4">
-					<h1 class="text-xl font-bold text-black!">{item.title}</h1>
-					<p class="text-lg text-black!">{item.description}</p>
-				</div>
+		<div class="absolute bottom-0 left-0 hidden w-fit max-w-[40vw] flex-wrap gap-4 p-12 lg:flex">
+			{#each home.labels as item}
+				<a
+					href="{$page.url.pathname}#{item.link}"
+					class="flex w-fit flex-row items-center gap-2 rounded-[12px] bg-brand-500/16 px-4 py-2
+					text-brand-500! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
+				>
+					<h1 class="text-xl font-medium text-inherit!">{item.label}</h1>
+					<svg
+						class="h-6 w-6 text-inherit! transition-all duration-200 hover:scale-120"
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						fill="none"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M19 12H5m14 0-4 4m4-4-4-4"
+						/>
+					</svg>
+				</a>
 			{/each}
 		</div>
 
@@ -43,19 +62,43 @@
 		/>
 	</div>
 
-	<div class="flex w-full flex-col gap-12 p-4 lg:hidden">
-		{#each home.highlited as item}
-			<div class="flex-col">
-				<h1 class="text-xl font-bold">{item.title}</h1>
-				<p class="text-lg">{item.description}</p>
-			</div>
+	<div class="flex w-full flex-row flex-wrap gap-4 p-4 lg:hidden">
+		{#each home.labels as item}
+			<a
+				href="{$page.url.pathname}#{item.link}"
+				class="flex w-full flex-row items-center gap-2 rounded-[12px] bg-brand-500/16 px-4 py-2
+					text-brand-500! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
+			>
+				<h1 class="grow text-xl font-medium text-brand-500!">{item.label}</h1>
+				<svg
+					class="h-6 w-6 text-brand-500 transition-all duration-200 hover:scale-120"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					fill="none"
+					viewBox="0 0 24 24"
+				>
+					<path
+						stroke="currentColor"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M19 12H5m14 0-4 4m4-4-4-4"
+					/>
+				</svg>
+			</a>
 		{/each}
 	</div>
 
-	{#each home.sections as item}
-		<Section {...item} />
-	{/each}
+	<div class="snap-y snap-mandatory overflow-y-auto">
+		{#each home.sections as item}
+			<Section {...item} />
+		{/each}
+	</div>
+	<!--
 	<Contact />
+	-->
 </div>
 <!--
 	<img src={grid} alt="" class="mb-12 w-full" />

@@ -1,0 +1,108 @@
+{
+    "highlited": [
+        {
+            "title": "Sistemi AI Personalizzati",
+            "description": "Strategia, agenti personalizzati, sistemi di ricerca e molto altro. Costruiamo soluzioni AI su misura che automatizzano i processi e forniscono interazioni più intelligenti. Questo sistema ti permetterà di azzerare i tempi morti e aumentare la produttività della tua azienda."
+        },
+        {
+            "title": "Digitalizzazione B2B",
+            "description": "Incrementa l’efficienza e supera i tuoi competitor. Ottimizziamo tutte le tue operazioni di backoffice rendendole più snelle e veloci. Un team di persone competenti che ti aiuteranno con strumenti digitali futuristici, una vittoria alla volta!"
+        },
+        {
+            "title": "AI Teaching",
+            "description": "Organizziamo e strutturiamo percorsi formativi completamente personalizzati dove insegniamo ai tuoi collaboratori e ai membri del tuo Team come utilizzare l’intelligenza artificiale in modo efficace e produttivo."
+        },
+        {
+            "title": "VIRGO AI",
+            "description": "Un nuovo software AI based che mette al centro le necessità dell’utente. La gestione dei file, la loro modifica e l’inoltro immediato non saranno più un problema."
+        }
+    ],
+    "sections": [
+        {
+            "title": "People Beyond AI",
+            "id": "people-beyond-ai",
+            "description": [
+                "Una visione che mette al centro i tuoi collaboratori e il tuo team, miglioriamo le performance con strumenti avanzati ma che aiutano concretamente il tuo lavoro."
+            ]
+        },
+        {
+            "title": "Il metodo Virgo",
+            "id": "il-metodo-virgo",
+            "steps": [
+                {
+                    "title": "Strategia e analisi del contesto",
+                    "description": "Ogni progetto parte da una fase di valutazione e pianificazione, in cui analizziamo la maturità digitale della tua azienda e gli obiettivi che desideri raggiungere. Attraverso workshop e confronti diretti con il tuo team, costruiamo una roadmap strategica che bilancia innovazione e concretezza. Questo approccio ci permette di identificare le opportunità a maggior impatto, evitando soluzioni improvvisate o non collaudate. L’obiettivo è creare basi solide affinché la tecnologia diventi un alleato reale, in linea con i tuoi processi e con la tua visione di crescita."
+                },
+                {
+                    "title": "Progettazione collaborativa e soluzioni su misura",
+                    "description": "Non crediamo in modelli standardizzati, ma in soluzioni che nascono dalla conoscenza interna della tua azienda e dalle competenze delle persone che vi lavorano. Per questo, ci immergiamo nel tuo settore, nei processi e nelle sfide quotidiane, così da capire come l’AI possa generare valore concreto. Disegniamo architetture scalabili e integrate con gli strumenti che già utilizzi, scegliendo tecnologie affidabili e testate sul campo. In questo modo, l’AI diventa un supporto intelligente che amplifica l’esperienza delle persone, senza sostituirla, rendendo i flussi di lavoro più fluidi ed efficienti."
+                },
+                {
+                    "title": "Implementazione, adozione e miglioramento continuo",
+                    "description": "Trasformiamo le idee in sistemi funzionanti, progettati per adattarsi al contesto reale della tua azienda e non solo a scenari teorici. Seguiamo passo dopo passo l’adozione delle nuove soluzioni, affiancando il tuo team con formazione mirata e strumenti di change management. Questo garantisce che la tecnologia venga accolta e compresa, anziché percepita come un ostacolo. Una volta implementato il sistema, monitoriamo i risultati attraverso KPI e cicli di miglioramento continuo, così da ottimizzare le performance e generare valore crescente nel tempo. L’AI diventa così un percorso evolutivo, in cui le persone restano sempre al centro."
+                },
+                {
+                    "title": "Support non stop, 24/7!",
+                    "description": "Mettici alla prova e scoprirai che il nostro team di assistenza - fatto di persone - sarà sempre al tuo fianco. Ti garantiamo un supporto costante, monitorando le soluzioni implementate e intervenendo tempestivamente ogni volta che serve. La nostra presenza non si limita alla fase iniziale: restiamo al tuo fianco nel tempo, accompagnandoti in ogni evoluzione. E se ti serve una mano fuori dagli orari tradizionali, puoi contare su di noi anche durante il weekend."
+                }
+            ]
+        },
+        {
+            "title": "Ti abbiamo incuriosito?",
+            "id": "contatti-cta",
+            "description": [
+                "Sentiamoci per una prima chiacchierata"
+            ],
+            "cta": {
+                "label": "Il primo passo è una chiacchierata",
+                "isInside": true,
+                "link": "contact"
+            }
+        },
+        {
+            "title": "Trasforma la tua visione in azioni intelligenti.",
+            "id": "trasforma-la-tua-visione",
+            "description": [
+                "Costruiamo sistemi intelligenti che risolvono problemi reali e aiutano le aziende fornendo soluzioni People centered. Attraverso la nostra esperienza nell’implementazione dell’AI, comprendiamo che il vero valore non deriva solo dalla tecnologia più avanzata. Noi colmiamo il vuoto tra ciò che l’AI può fare e ciò che di cui tu realmente hai bisogno. Il nostro approccio unisce la pianificazione strategica, test rigorosi, applicazione creativa delle tecnologie emergenti e una conoscenza profonda di ciò di cui il tuo business ha bisogno. Ti aiutiamo a trovare il giusto equilibrio tra innovazione e stabilità — procedere troppo velocemente può portare a scelte tecnologiche rapidamente obsolete, mentre muoversi troppo lentamente significa perdere vantaggio competitivo.",
+                " Non ci limitiamo a implementare l’AI: costruiamo sistemi completi che generano un impatto misurabile, trasformando le operazioni, migliorando l’esperienza del cliente o sbloccando nuove capacità per il tuo team."
+            ],
+            "cta": {
+                "label": "Il primo passo è una chiacchierata",
+                "isInside": true,
+                "link": "contact"
+            }
+        },
+        {
+            "title": "Evolversi senza paure.",
+            "id": "evolversi-senza-paure",
+            "description": [
+                "Nel mercato di oggi, la vera domanda non è se digitalizzare, ma come farlo in modo efficace.Nel mercato di oggi, la vera domanda non è se digitalizzare, ma come farlo in modo efficace.",
+                "Molte aziende mantengono processi che hanno funzionato per anni — fino a quando un concorrente più skillato sfrutta la tecnologia per ottenere un vantaggio, oppure fino a quando le inefficienze operative iniziano a pesare sui conti.",
+                "Guidiamo le organizzazioni attraverso questa trasformazione complessa, combinando competenze tecnologiche con un profondo rispetto per le relazioni umane.",
+                "Il nostro approccio iterativo ti aiuta ad adottare nuove tecnologie in modo strategico—un passo alla volta — misurando l’impatto e assicurandoci che ogni cambiamento generi risultati concreti.",
+                "Sappiamo che una digitalizzazione di successo è fatta per il 20% di tecnologia e per l’80% di persone. Per questo lavoriamo a stretto contatto con il tuo team, integrando le loro conoscenze per costruire soluzioni che trasformano davvero il tuo business.",
+                "Per noi l’esperienza dei nostri partner è il vero cuore della digitalizzazione. Comprendendo come i tuoi clienti interagiscono con il tuo business, progettiamo sistemi che migliorano il customer journey e ottimizzano al tempo stesso le operazioni interne creando un circolo virtuoso che favorisce crescita e fidelizzazione",
+                "Invece di aspettare condizioni perfette, ti aiutiamo a partire rapidamente concentrandoti sulle aree a maggior impatto. Il nostro approccio ti permette di testare, imparare e adattarti—ottenendo miglioramenti misurabili e costruendo slancio per una trasformazione più ampia."
+            ],
+            "cta": {
+                "label": "Il primo passo è una chiacchierata",
+                "isInside": true,
+                "link": "contact"
+            }
+        },
+        {
+            "title": "Strumenti complessi spiegati in modo semplice",
+            "id": "evolversi-senza-paure",
+            "description": [
+                "La tecnologia da sola non basta: il suo vero valore emerge solo quando chi la utilizza si sente sicuro, supportato e parte di un cambiamento positivo.",
+                "In Virgo crediamo nel potenziale delle persone e nella forza del lavoro di squadra. Per questo affianchiamo il tuo Team in ogni fase, trasformando l’apprendimento dei nostri sistemi in un percorso chiaro, stimolante e condiviso.",
+                "Il nostro impegno è rendere la tecnologia non solo accessibile, ma anche motivante. Così, ogni membro del tuo Team potrà scoprire come questi strumenti possano semplificare il lavoro quotidiano, liberare nuove energie e aprire la strada a un’evoluzione aziendale accolta con entusiasmo."
+            ],
+            "cta": {
+                "label": "Ti abbiamo convinto? Sentiamoci!",
+                "isInside": true,
+                "link": "contact"
+            }
+        }
+    ]
+}

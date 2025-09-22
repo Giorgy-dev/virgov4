@@ -3,6 +3,7 @@ export type Section = {
 	id: string;
 	isSmall?: boolean;
 	description?: string[];
+	grid?: string[];
 	cta?: {
 		label: string;
 		link: string;
