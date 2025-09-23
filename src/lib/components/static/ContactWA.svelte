@@ -1,7 +1,7 @@
 <div class="grid w-screen place-content-center overflow-hidden">
 	<div class="h-fit w-screen snap-center p-4 lg:p-12" id="people-beyond-ai">
 		<div
-			class="flex h-full w-full flex-col place-items-center gap-8 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-4 lg:p-12"
+			class="flex h-full w-full flex-col place-items-center gap-8 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-4 lg:p-12 py-6"
 		>
 			<p class="grow text-center text-xl!">
 				Perché proporti una scarrellata di domande e risposte se puoi farci direttamente uno squillo
@@ -10,7 +10,7 @@
 			<a
 				target="_blank"
 				href="https://wa.me/393333218804"
-				class="link link-hover inline-block w-fit max-w-[200px] rounded-[11px] bg-brand-600 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700 hover:text-white! lg:max-w-fit"
+				class="link link-hover inline-block w-fit rounded-[11px] bg-brand-600 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700 hover:text-white! lg:max-w-fit"
 			>
 				<div class="flex flex-row gap-3">
 					<div class="grid place-content-center">
@@ -51,7 +51,9 @@
 							</g>
 						</svg>
 					</div>
-					WhatsApp +39 393333218804
+					WhatsApp
+					<br class="block lg:hidden">
+					+39 393333218804
 				</div>
 			</a>
 		</div>
