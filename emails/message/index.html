@@ -1,6 +1,144 @@
-<html>
-  <body>
-    <h1>Welcome, {{name}}</h1>
-    <p>We hope you enjoy our super simple emails!</p>
-  </body>
+<!--
+  Email HTML template
+  Variables available:
+    {{name}} (string)
+    {{surname}} (string)
+    {{company}} (string)
+    {{website}} (string)
+    {{subject}} (string)
+    {{contact}} (string)
+  Replace these placeholders with your templating engine (Handlebars, Mustache, Liquid, etc.) or perform a simple string replace.
+-->
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>{{subject}}</title>
+		<style>
+			/* Basic reset for email clients */
+			body,
+			table,
+			td,
+			a {
+				-webkit-text-size-adjust: 100%;
+				-ms-text-size-adjust: 100%;
+			}
+			table,
+			td {
+				mso-table-lspace: 0pt;
+				mso-table-rspace: 0pt;
+			}
+			img {
+				-ms-interpolation-mode: bicubic;
+			}
+
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100% !important;
+				background-color: #f4f4f6;
+				font-family:
+					-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+			}
+			.email-container {
+				width: 100%;
+				max-width: 680px;
+				margin: 0 auto;
+				background: #ffffff;
+				border-radius: 8px;
+				overflow: hidden;
+			}
+			.spacer {
+				height: 24px;
+			}
+			.header {
+				padding: 20px;
+				text-align: left;
+			}
+			.logo {
+				font-weight: 700;
+				font-size: 18px;
+				color: #111111;
+				text-decoration: none;
+			}
+			.hero {
+				padding: 22px 24px;
+			}
+			.greeting {
+				font-size: 18px;
+				margin: 0 0 12px 0;
+				color: #111111;
+			}
+			.body-text {
+				font-size: 15px;
+				line-height: 1.55;
+				color: #333333;
+				margin: 0 0 16px 0;
+			}
+			.footer {
+				padding: 18px 24px;
+				font-size: 13px;
+				color: #7a7a7a;
+				background: #fafafa;
+			}
+			.btn {
+				display: inline-block;
+				padding: 12px 18px;
+				text-decoration: none;
+				border-radius: 6px;
+				background: #f20050;
+				color: #ffffff;
+				font-weight: 600;
+			}
+
+			@media screen and (max-width: 420px) {
+				.hero {
+					padding: 16px;
+				}
+				.header {
+					padding: 14px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width: 100%; background-color: #f4f4f6">
+			<table role="presentation" cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td style="padding: 28px 16px">
+						<table role="presentation" class="email-container" cellspacing="0" cellpadding="0">
+							<!-- Hero / Subject -->
+							<tr>
+								<td class="hero">
+									<h1 class="greeting">Ciao da {{name}} {{surname}},</h1>
+									<p style="margin: 0 0 12px 0; font-size: 16px; color: #111111; font-weight: 600">
+										{{subject}}
+									</p>
+
+									<p class="body-text">
+										Questo messaggio &egrave; inviato da <strong>{{company}}</strong>.
+										<br />
+										Per qualsiasi informazione puoi contattarci a: {{contact}}
+										<br />
+										o visitare il nostro sito: {{website}}
+									</p>
+									<p style="margin: 18px 0 0 0">
+										<a class="btn" href="{{website}}" target="_blank">Visita il sito</a>
+									</p>
+								</td>
+							</tr>
+
+							<!-- Footer -->
+							<tr>
+								<td class="footer">
+									<p style="margin: 0 0 4px 0">Ricevuto da landing VirgoV4</p>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
 </html>

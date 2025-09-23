@@ -14,10 +14,13 @@ const handler: Handler = async function (event) {
 	//page content
 	const requestBody = JSON.parse(event.body) as {
 		name: string;
-		data: string;
+		surname: string;
+		company: string;
+		website: string;
+		subject: string;
+		contact: string;
 	};
 
-    
 	//automatically generated snippet from the email preview
 	//sends a request to an email handler for a subscribed email
 	await fetch(`${process.env.URL}/.netlify/functions/emails/message`, {
@@ -28,12 +31,20 @@ const handler: Handler = async function (event) {
 		body: JSON.stringify({
 			from: email,
 			to: email,
-			subject: `${requestBody.name} - ${requestBody.data}`
+			subject: `From website - ${requestBody.name}`,
+			parameters: {
+				name: requestBody.name,
+				surname: requestBody.surname,
+				company: requestBody.company,
+				website: requestBody.website,
+				subject: requestBody.subject,
+				email: requestBody.contact
+			}
 		})
 	});
 
 	return {
-		statusCode: 200,//OK
+		statusCode: 200, //OK
 		body: JSON.stringify('Email sent!')
 	};
 };
