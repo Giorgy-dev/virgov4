@@ -45,7 +45,7 @@
 		<div
 			class="grid h-full w-full flex-col gap-0 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-4 lg:p-12"
 		>
-			<div class="flex-col flex w-full flex-wrap p-4 lg:flex-row lg:p-10 gap-10 lg:gap-0">
+			<div class="flex w-full flex-col flex-wrap gap-10 p-4 lg:flex-row lg:gap-0 lg:p-10">
 				<div class="mb-4 flex flex-col gap-10 lg:max-w-1/2 lg:grow lg:p-0">
 					<h1 class="text-4xl font-medium">Parliamone!</h1>
 					<p class="text-xl! lg:max-w-2/3">
@@ -110,13 +110,20 @@
 
 						<div class="flex w-full flex-col gap-0">
 							<div class="grow">
-								<Radio classes={{ label: 'p-3' }} bind:group={isRadioEmail} value={true}
-									>Email</Radio
+								<Radio
+									classes={{ label: 'p-3' }}
+									class="text-brand-500 focus:ring-brand-500"
+									bind:group={isRadioEmail}
+									value={true}
+									checked={true}>Email</Radio
 								>
 							</div>
 							<div class="grow">
-								<Radio classes={{ label: 'p-3' }} bind:group={isRadioEmail} value={false}
-									>Telefono</Radio
+								<Radio
+									classes={{ label: 'p-3' }}
+									class="text-brand-500 focus:ring-brand-500"
+									bind:group={isRadioEmail}
+									value={false}>Telefono</Radio
 								>
 							</div>
 						</div>

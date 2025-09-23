@@ -1,19 +1,11 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
-
 	let { children } = $props();
 
 	//* FOOTER IMPORTS *//
 	import logo_ext_3 from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_2.svg';
-	import {
-		Footer,
-		FooterBrand,
-		FooterLinkGroup,
-		FooterLink,
-		FooterCopyright,
-		FooterIcon
-	} from 'flowbite-svelte';
+	import { Footer, FooterBrand, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
 </script>
 
 <svelte:head>
@@ -26,7 +18,7 @@
 <!--* FOOTER *-->
 <Footer footerType="socialmedia" class="bg-gray-50 dark:bg-black">
 	<hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
-	<div class="flex flex-col gap-12 lg:flex-row lg:gap-24 lg:pr-24 pb-40">
+	<div class="flex flex-col gap-12 pb-40 lg:flex-row lg:gap-24 lg:pr-24">
 		<div class="mr-24">
 			<FooterBrand href="/" src={logo_ext_3} alt="Virgo" aClass="flex mb-6" />
 			<p class="text-gray-600 dark:text-gray-400">People Beyond AI</p>
@@ -65,5 +57,42 @@
 				>
 			</FooterLinkGroup>
 		</div> -->
+
+		<!--
+
+		IUBENDA INTEGRATION
+		<div>
+			<span class="footer-title">Legal</span>
+			<a
+				href="https://www.iubenda.com/privacy-policy/51115786"
+				class="iubenda-nostyle iubenda-noiframe iubenda-embed iubenda-noiframe link link-hover"
+				title="Privacy Policy ">Privacy Policy</a
+			>
+			<script type="text/javascript">
+				(function (w, d) {
+					var loader = function () {
+						var s = d.createElement('script'),
+							tag = d.getElementsByTagName('script')[0];
+						s.src = 'https://cdn.iubenda.com/iubenda.js';
+						tag.parentNode.insertBefore(s, tag);
+					};
+					if (w.addEventListener) {
+						w.addEventListener('load', loader, false);
+					} else if (w.attachEvent) {
+						w.attachEvent('onload', loader);
+					} else {
+						w.onload = loader;
+					}
+				})(window, document);
+			</script>
+			<a
+				href="https://www.iubenda.com/privacy-policy/51115786/cookie-policy"
+				class="iubenda-nostyle iubenda-noiframe iubenda-embed iubenda-noiframe link link-hover"
+				title="Cookie Policy">Cookie Policy</a
+			>
+
+			<btn class="iubenda-cs-preferences-link link link-hover"> Modifica le tue preferenze </btn>
+		</div>
+		-->
 	</div>
 </Footer>
