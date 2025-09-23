@@ -19,13 +19,6 @@
     ],
     "sections": [
         {
-            "title": "People Beyond AI",
-            "id": "people-beyond-ai",
-            "description": [
-                "Una visione che mette al centro i tuoi collaboratori e il tuo team, miglioriamo le performance con strumenti avanzati ma che aiutano concretamente il tuo lavoro."
-            ]
-        },
-        {
             "title": "Il metodo Virgo",
             "id": "il-metodo-virgo",
             "steps": [

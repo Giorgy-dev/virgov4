@@ -2,7 +2,7 @@
 	import home from '$lib/jsons/home.json';
 	import { Video } from 'flowbite-svelte';
 	import heroVideo from '$lib/assets/videos/abstract-hero-3.mp4';
-	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_5.svg';
+	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_3.svg';
 	import Section from '$lib/components/Section.svelte';
 	//import Contact from '$lib/components/Contact.svelte';
 	import { page } from '$app/stores';
@@ -23,14 +23,14 @@
 			</h2>
 		</div>
 
-		<div class="absolute bottom-0 left-0 hidden w-fit max-w-[40vw] flex-wrap gap-4 p-12 lg:flex">
+		<div class="absolute bottom-0 left-0 hidden w-full flex-row gap-4 p-12 lg:flex">
 			{#each home.labels as item}
 				<a
 					href="{$page.url.pathname}#{item.link}"
-					class="flex w-fit flex-row items-center gap-2 rounded-[12px] bg-brand-500/16 px-4 py-2
-					text-brand-500! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
+					class="flex w-full flex-row items-center gap-2 rounded-[12px] border border-white bg-black/16 px-4 py-2
+					text-white! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
 				>
-					<h1 class="text-xl font-medium text-inherit!">{item.label}</h1>
+					<h1 class="grow text-xl font-medium text-inherit!">{item.label}</h1>
 					<svg
 						class="h-6 w-6 text-inherit! transition-all duration-200 hover:scale-120"
 						aria-hidden="true"
@@ -66,12 +66,12 @@
 		{#each home.labels as item}
 			<a
 				href="{$page.url.pathname}#{item.link}"
-				class="flex w-full flex-row items-center gap-2 rounded-[12px] bg-brand-500/16 px-4 py-2
+				class="flex w-full flex-row items-center gap-2 rounded-[12px] border border-brand-500 bg-brand-500/16 px-4 py-2
 					text-brand-500! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
 			>
-				<h1 class="grow text-xl font-medium text-brand-500!">{item.label}</h1>
+				<h1 class="grow text-xl font-medium text-inherit!">{item.label}</h1>
 				<svg
-					class="h-6 w-6 text-brand-500 transition-all duration-200 hover:scale-120"
+					class="h-6 w-6 text-inherit! transition-all duration-200 hover:scale-120"
 					aria-hidden="true"
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -89,6 +89,33 @@
 				</svg>
 			</a>
 		{/each}
+	</div>
+
+	<!-- content here -->
+	<div class="h-svh w-full snap-center lg:p-12 p-4" id="people-beyond-ai">
+		<div
+			class="grid h-full w-full flex-col place-items-center gap-0 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-4 lg:p-12"
+		>
+			<div class="relative">
+				<div class="relative z-100 flex w-full h-full flex-col items-center">
+					<h1 class="mb-4 text-center text-4xl font-medium lg:p-0 p-8">People Beyond AI</h1>
+					<p class="pb-4 text-center text-xl! lg:max-w-2/3">
+						Una visione che mette al centro i tuoi collaboratori e il tuo team, miglioriamo le
+						performance con strumenti avanzati ma che aiutano concretamente il tuo lavoro.
+					</p>
+				</div>
+				<span class="absolute top-0 left-[50%] z-10 flex size-30 -translate-x-[50%]">
+					<span
+						class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-500 opacity-25"
+					></span>
+				</span>
+				<span class="absolute top-5 left-[50%] z-10 flex size-20 -translate-x-[50%]">
+					<span
+						class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-500 opacity-25"
+					></span>
+				</span>
+			</div>
+		</div>
 	</div>
 
 	<div class="snap-y snap-mandatory overflow-y-auto">
