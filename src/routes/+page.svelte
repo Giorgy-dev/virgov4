@@ -62,6 +62,10 @@
 			muted
 			loop
 			autoplay
+			preload="none"
+			disablepictureinpicture
+			playsinline
+			controlslist="nofullscreen nodownload noremoteplayback"
 			class="absolute top-0 left-0 -z-10 h-dvh w-screen object-cover"
 		/>
 	</div>
