@@ -1,6 +1,6 @@
 <script lang="ts">
 	import home from '$lib/jsons/home.json';
-	import { Hr, Video } from 'flowbite-svelte';
+	import { Hr, Video, Card } from 'flowbite-svelte';
 	import heroVideo from '$lib/assets/videos/abstract-hero-3.mp4';
 	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_3.svg';
 	//import Section from '$lib/components/Section.svelte';
@@ -10,6 +10,8 @@
 	import Payoff from '$lib/components/static/Payoff.svelte';
 	import ContactWA from '$lib/components/static/ContactWA.svelte';
 	import Metodo from '$lib/components/static/Metodo.svelte';
+	import Marquee from '$lib/components/static/MarqueeSection.svelte';
+	import MarqueeSection from '$lib/components/static/MarqueeSection.svelte';
 </script>
 
 <div class="flex flex-col gap-12">
@@ -108,7 +110,7 @@
 	-->
 
 	<Metodo />
-	
+	<MarqueeSection />
 	<Payoff />
 	<Contact />
 	<div class="-my-10 px-20">
