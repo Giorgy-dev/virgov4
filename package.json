@@ -16,6 +16,7 @@
 	"dependencies": {
 		"@netlify/emails": "^1.1.0",
 		"@netlify/functions": "^4.2.5",
+		"@sveltech/routify": "^1.9.10",
 		"animejs": "^4.1.3",
 		"mailgun.js": "^12.0.3",
 		"node-fetch": "^3.3.2",
