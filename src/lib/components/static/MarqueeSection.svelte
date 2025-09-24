@@ -5,29 +5,29 @@
 	const speed = 150;
 </script>
 
-<div class="h-fit w-full snap-center p-4 lg:p-12" id="easy-fast-virgo">
+<div class="h-fit w-full snap-center p-1 lg:p-12" id="easy-fast-virgo">
 	<div
-		class="grid h-full w-full flex-col place-items-center gap-0 overflow-hidden rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-4 lg:p-12"
+		class="grid h-full w-full flex-col place-items-center gap-0 overflow-hidden rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-12"
 	>
 		<div class="flex w-full flex-col gap-0 overflow-hidden lg:flex-row">
 			<div class="h-fit w-full lg:w-2/3">
 				<div class="relative z-100 flex h-full w-full flex-col items-start p-6 lg:p-10">
-					<h1 class="mb-4 text-4xl font-medium lg:p-0">Easy, fast, VIRGO</h1>
-					<p class="pb-4 text-xl! lg:max-w-2/5">
+					<h1 class="mb-4 text-4xl font-medium lg:p-0">Easy, fast, Virgo</h1>
+					<p class=" pb-4 text-xl! lg:max-w-2/5">
 						Dai una super carica al tuo Team grazie al nostro software interno!
 					</p>
-					<p class="pb-4 text-xl! lg:max-w-2/5 animate-fade text-brand-500!">Coming soon...</p>
+					<p class=" animate-fade pb-4 text-xl! text-brand-500! lg:max-w-2/5">Coming soon...</p>
 				</div>
 			</div>
 			<div class="relative h-fit w-full grow overflow-hidden">
 				<div class="absolute z-20 h-full w-full">
 					<div class="relative flex h-full w-full flex-row">
-						<div class="w-60 bg-linear-to-r from-white from-20% to-transparent"></div>
+						<div class="w-20 bg-linear-to-r from-white from-20% to-transparent lg:w-60"></div>
 						<div class="grow"></div>
-						<div class="w-60 bg-linear-to-l from-white from-20% to-transparent"></div>
+						<div class="w-20 bg-linear-to-l from-white from-20% to-transparent lg:w-60"></div>
 					</div>
 				</div>
-				<div class="relative z-10 flex flex-col gap-8 lg:pt-40">
+				<div class="relative z-10 flex flex-col gap-8 lg:pt-40 pb-6 lg:pb-4">
 					<Marquee pauseOnHover={false} direction="left" {speed} {play}>
 						<Icons />
 					</Marquee>
@@ -46,13 +46,13 @@
 	}
 	@keyframes fade {
 		0% {
-			opacity: .5;
+			opacity: 0.5;
 		}
 		50% {
 			opacity: 0.1;
 		}
 		to {
-			opacity: .5;
+			opacity: 0.5;
 		}
 	}
 </style>

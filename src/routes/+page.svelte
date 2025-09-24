@@ -21,15 +21,15 @@
 			<img src={logo} alt="Virgo" class="h-8 w-auto" />
 		</div>
 
-		<div class="rounded-full p-4 px-6">
-			<h2 class="flex flex-col items-start gap-4 text-6xl text-white! lg:flex-row lg:gap-0">
+		<div class="rounded-full p-1 lg:p-4 px-6">
+			<h2 class="flex flex-col items-start gap-1 lg:p-4 text-6xl text-white! lg:flex-row lg:gap-0">
 				<div class="rounded-full border-2 border-white p-2 px-4 text-inherit">People</div>
 				<div class="p-2 text-inherit">Beyond</div>
 				<div class="rounded-full border-2 border-white p-2 px-4 text-inherit">AI</div>
 			</h2>
 		</div>
 
-		<div class="absolute bottom-0 left-0 hidden w-full flex-row gap-4 p-12 lg:flex">
+		<div class="absolute bottom-0 left-0 hidden w-full flex-row gap-1 lg:p-4 p-12 lg:flex">
 			{#each home.labels as item}
 				<a
 					href="{$page.url.pathname}#{item.link}"
@@ -72,7 +72,7 @@
 		/>
 	</div>
 
-	<div class="flex w-full flex-row flex-wrap gap-4 p-4 lg:hidden">
+	<div class="flex w-full flex-row flex-wrap gap-1 lg:p-4 p-1 lg:p-4 lg:hidden">
 		{#each home.labels as item}
 			<a
 				href="{$page.url.pathname}#{item.link}"

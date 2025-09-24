@@ -21,7 +21,7 @@
 	<div class="flex flex-col gap-12 pb-40 lg:flex-row lg:gap-24 lg:pr-24">
 		<div class="mr-24">
 			<FooterBrand href="/" src={logo_ext_3} alt="Virgo" aClass="flex mb-6" />
-			<p class="text-gray-600 dark:text-gray-400">People Beyond AI</p>
+			<p class=" text-gray-600 dark:text-gray-400">People Beyond AI</p>
 		</div>
 		<div>
 			<h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-white">Brands</h2>

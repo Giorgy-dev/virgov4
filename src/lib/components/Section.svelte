@@ -10,12 +10,12 @@
 	<div
 		class="flex h-full w-full flex-col rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-12"
 	>
-		<div class="items-lrft flex w-fit flex-col gap-4 text-left lg:p-4">
+		<div class="items-lrft flex w-fit flex-col gap-1 lg:p-4 text-left lg:p-1 lg:p-4">
 			<h1 class="text-4xl font-medium mb-4">{section.title}</h1>
 			{#if section.description}
 				<div class="flex flex-col gap-2">
 					{#each section.description as desc}
-						<p class="pb-4 text-left text-xl! lg:max-w-1/2">{desc}</p>
+						<p class=" pb-4 text-left text-xl! lg:max-w-1/2">{desc}</p>
 					{/each}
 				</div>
 			{/if}

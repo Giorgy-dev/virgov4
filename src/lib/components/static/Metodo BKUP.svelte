@@ -46,12 +46,12 @@
 	<div
 		class="flex h-fit w-full flex-col rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-12"
 	>
-		<div class="items-left flex h-fit w-fit flex-col gap-4 text-left lg:p-4">
+		<div class="items-left flex h-fit w-fit flex-col gap-1 lg:p-4 text-left lg:p-1 lg:p-4">
 			<h1 class="mb-4 text-4xl font-medium">{metodo.title}</h1>
-			<div class="flex flex-row gap-4 pt-10">
+			<div class="flex flex-row gap-1 lg:p-4 pt-10">
 				{#each metodo.steps as step, index}
 					<div class="flex grow flex-col gap-10 even:pt-20">
-						<div class="flex flex-col gap-4">
+						<div class="flex flex-col gap-1 lg:p-4">
 							<h1 class="text-4xl font-medium">
 								{index + 1}.
 							</h1>
@@ -59,10 +59,10 @@
 								{step.title}
 							</h1>
 						</div>
-						<div class="flex flex-row flex-wrap gap-4">
+						<div class="flex flex-row flex-wrap gap-1 lg:p-4">
 							{#each step.description as desc}
 								<Card class="max-w-[460px] px-8 py-6">
-									<p class="pb-4 text-xl!">{desc}</p>
+									<p class=" pb-4 text-xl!">{desc}</p>
 								</Card>
 							{/each}
 						</div>
