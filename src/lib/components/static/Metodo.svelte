@@ -50,11 +50,90 @@
     . . . x . x . . .
     `
 	];
+	const FRAMES2 = [
+		`
+    . . x . . . . . .
+    . . x x x x x x .
+    x . . . . . . . .
+    . . x x x x x x .
+    . . x . . . . . .
+    `,
+		`
+    . . x . . . . . .
+    . . x x x x x x .
+    x . . . . . . . .
+    . . x x x x x x .
+    . . x . . . . . .
+    `,
+		`
+    . x x . . . . . .
+    . . . x x x x x .
+    . x . . . . . . .
+    . . . x x x x x .
+    . x x . . . . . .
+    `,
+		`
+    . x x x . . . . .
+    . . . . x x x x .
+    . . x . . . . . .
+    . . . . x x x x .
+    . x x x . . . . .
+    `,
+		`
+    . . x x x . . . .
+    . x . . . x x x .
+    . . . x . . . . .
+    . x . . . x x x .
+    . . x x x . . . .
+    `,
+		`
+    . . . x x x . . .
+    . x x . . . x x .
+    . . . . x . . . .
+    . x x . . . x x .
+    . . . x x x . . .
+    `,
+		`
+    . . . . x x x . .
+    . x x x . . . x .
+    . . . . . x . . .
+    . x x x . . . x .
+    . . . . x x x . .
+    `,
+		`
+    . . . . . x x x .
+    . x x x x . . . .
+    . . . . . . x . .
+    . x x x x . . . .
+    . . . . . x x x .
+    `,
+		`
+    . . . . . . x x .
+    . x x x x x . . .
+    . . . . . . . x .
+    . x x x x x . . .
+    . . . . . . x x .
+    `,
+		`
+    . . . . . . x . .
+    . x x x x x x . .
+    . . . . . . . . x
+    . x x x x x x . .
+    . . . . . . x . .
+    `,
+		`
+    . . . . . . x . .
+    . x x x x x x . .
+    . . . . . . . . x
+    . x x x x x x . .
+    . . . . . . x . .
+    `
+	];
 </script>
 
 <div class="h-fit w-full snap-center lg:p-12" id="people-beyond-ai">
 	<div
-		class="h-full w-full flex-col gap-0 overflow-hidden border-gray-200/50 bg-gray-200/8 p-1 lg:p-4 pt-10 lg:rounded-[12px] lg:border lg:p-24"
+		class="h-full w-full flex-col gap-0 overflow-hidden border-gray-200/50 bg-gray-200/8 p-1 pt-10 lg:rounded-[12px] lg:border lg:p-4 lg:p-24"
 	>
 		<div class="p-1 lg:p-4 lg:pb-10">
 			<h1 class="mb-4 text-4xl font-medium">Il nostro metodo</h1>
@@ -63,7 +142,7 @@
 				performance con strumenti avanzati ma che aiutano concretamente il tuo lavoro.
 			</p>
 		</div>
-		<div class="flex flex-col gap-1 lg:p-4 lg:grid-cols-3 lg:grid-rows-2 lg:flex-row">
+		<div class="flex flex-col gap-1 lg:grid-cols-3 lg:grid-rows-2 lg:flex-row lg:p-4">
 			<!--lg:mt-20 lg:-mb-20-->
 			<div class="relative lg:row-span-2 lg:min-w-1/3">
 				<div class="relative flex h-full flex-col overflow-hidden rounded-[12px]">
@@ -146,16 +225,11 @@
 						</div>
 						<div class="relative h-[20vh] min-h-60 w-full grow px-10 lg:h-full">
 							<div
-								class="top-10 bottom-0 grid h-full place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
+								class="top-10 bottom-0 grid h-full min-h-[16vh] place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
 							>
-								<div class="relative flex w-full flex-col items-center overflow-hidden lg:absolute">
-									<div
-										class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
-									></div>
-									<div
-										class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
-									></div>
-								</div>
+								<Animated frames={FRAMES2} let:using={{ map }}>
+									<PixelMap scale={20} {map} color={'rgb(201, 201, 201)'} />
+								</Animated>
 							</div>
 						</div>
 					</div>
