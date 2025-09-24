@@ -28,7 +28,7 @@
 						<div class="py-4">
 							<Accordion flush>
 								<AccordionItem>
-									{#snippet header()}<p class="mt-2 text-xl! font-medium">
+									{#snippet header()}<p class="mt-2 w-full max-w-2/3 text-xl! font-medium">
 											Strategia e analisi del contesto
 										</p>{/snippet}
 									<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
@@ -77,7 +77,7 @@
 							<div class="py-4">
 								<Accordion flush>
 									<AccordionItem>
-										{#snippet header()}<p class=" text-xl! font-medium">
+										{#snippet header()}<p class=" w-full max-w-2/3 text-xl! font-medium">
 												Progettazione collaborativa e soluzioni su misura
 											</p>{/snippet}
 										<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
@@ -101,19 +101,19 @@
 							</div>
 						</div>
 						<div class="relative h-[20vh] min-h-60 w-full grow px-10 lg:h-full">
-						<div
-							class="top-10 bottom-0 grid h-full place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
-						>
-							<div class="relative flex w-full flex-col items-center overflow-hidden lg:absolute">
-								<div
-									class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
-								></div>
-								<div
-									class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
-								></div>
+							<div
+								class="top-10 bottom-0 grid h-full place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
+							>
+								<div class="relative flex w-full flex-col items-center overflow-hidden lg:absolute">
+									<div
+										class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
+									></div>
+									<div
+										class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
+									></div>
+								</div>
 							</div>
 						</div>
-					</div>
 					</div>
 					<div
 						class="pointer-events-none absolute inset-px rounded-[12px] shadow-sm outline outline-black/5"
@@ -127,7 +127,7 @@
 							<div class="py-4">
 								<Accordion flush>
 									<AccordionItem>
-										{#snippet header()}<p class="mt-2 text-xl! font-medium">
+										{#snippet header()}<p class="mt-2 w-full max-w-2/3 text-xl! font-medium">
 												Implementazione, adozione, miglioramento continuo
 											</p>{/snippet}
 										<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
@@ -179,7 +179,7 @@
 						<div class="py-4">
 							<Accordion flush>
 								<AccordionItem>
-									{#snippet header()}<p class="mt-2 text-xl! font-medium">
+									{#snippet header()}<p class="mt-2 w-full max-w-2/3 text-xl! font-medium">
 											Support non stop, 24/7!
 										</p>{/snippet}
 									<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
