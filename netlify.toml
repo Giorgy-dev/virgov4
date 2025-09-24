@@ -3,3 +3,5 @@
 	publish = "build"
 [[plugins]]
 	package = "@netlify/plugin-emails"
+[build.environment]
+	NODE_VERSION = "lts/*"
