@@ -515,7 +515,7 @@
 							<Accordion flush>
 								<AccordionItem>
 									{#snippet header()}<p class=" mt-2 w-full max-w-2/3 text-xl! font-medium">
-											Support non stop, 24/7!
+											Supporto non stop, 24/7!
 										</p>{/snippet}
 									<p class=" mt-2 max-w-lg text-sm/6 text-gray-600">
 										Mettici alla prova e scoprirai che il nostro team di assistenza - fatto di
