@@ -1,7 +1,7 @@
 <div class="grid w-screen place-content-center overflow-hidden">
-	<div class="h-fit w-screen snap-center p-1 lg:p-4 lg:p-12" id="people-beyond-ai">
+	<div class="h-fit w-screen snap-center p-4 lg:p-12" id="people-beyond-ai">
 		<div
-			class="flex h-full w-full flex-col place-items-center gap-8 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-4 lg:p-12 py-6"
+			class="flex h-full w-full flex-col place-items-center gap-8 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-10 lg:p-12 py-6"
 		>
 			<p class=" grow text-center text-xl!">
 				Perché proporti una scarrellata di domande e risposte se puoi farci direttamente uno squillo

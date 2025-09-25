@@ -2,7 +2,7 @@
 	import { Card } from 'flowbite-svelte';
 </script>
 
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			class="image"
@@ -19,7 +19,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Google</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			class="image"
@@ -37,7 +37,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Google Docs</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			class="image"
@@ -55,7 +55,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Google Drive</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			class="image"
@@ -73,7 +73,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Google Fogli</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			class="image"
@@ -91,7 +91,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Gmail</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SparkIcon_.width-500.format-webp.webp"
@@ -102,7 +102,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Gemini</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			class="image"
@@ -120,7 +120,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Google AI</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/svg/excel_32x1.svg"
@@ -130,7 +130,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Microsoft Excel</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Word-28x28?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=32&amp;hei=32&amp;qlt=100&amp;fit=constrain"
@@ -143,7 +143,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Microsoft Word</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Outlook-28x281?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=32&amp;hei=32&amp;qlt=100&amp;fit=constrain"
@@ -156,7 +156,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Outlook</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-OneDrive-28x281?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=32&amp;hei=32&amp;qlt=100&amp;fit=constrain"
@@ -169,7 +169,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">OneDrive</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/microsoft-teams-64x64.svg?id=e733e298-cbb9-4d15-aebd-f5dad25527f6"
@@ -182,7 +182,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Teams</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/slack-64x64.svg?id=e028dbd7-df26-4076-ad15-faa51c132578"
@@ -195,7 +195,7 @@
 		<p class="hidden lg:block leading-tight font-normal text-gray-700 dark:text-gray-400">Slack</p>
 	</div>
 </Card>
-<Card href="/cards" class="mx-4 w-fit p-1 lg:p-4 shadow-none ">
+<Card href="/cards" class=" w-fit p-1 lg:p-4 shadow-none ">
 	<div class="grid h-18 w-18 lg:h-25 lg:w-25 place-items-center gap-2">
 		<img
 			src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/formswift-67x64.svg?id=949dd1f5-99ee-4910-851e-709180f90e1b"

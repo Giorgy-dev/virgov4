@@ -21,15 +21,15 @@
 			<img src={logo} alt="Virgo" class="h-8 w-auto" />
 		</div>
 
-		<div class="rounded-full p-1 lg:p-4 px-6">
-			<h2 class="flex flex-col items-start gap-1 lg:p-4 text-6xl text-white! lg:flex-row lg:gap-0">
+		<div class="rounded-full p-1 px-6 lg:p-4">
+			<h2 class="flex flex-col items-start gap-1 text-6xl text-white! lg:flex-row lg:gap-0 lg:p-4">
 				<div class="rounded-full border-2 border-white p-2 px-4 text-inherit">People</div>
 				<div class="p-2 text-inherit">Beyond</div>
 				<div class="rounded-full border-2 border-white p-2 px-4 text-inherit">AI</div>
 			</h2>
 		</div>
 
-		<div class="absolute bottom-0 left-0 hidden w-full flex-row gap-1 lg:p-4 p-12 lg:flex">
+		<div class="absolute bottom-0 left-0 hidden w-full flex-row gap-1 p-12 lg:flex lg:p-4">
 			{#each home.labels as item}
 				<a
 					href="{$page.url.pathname}#{item.link}"
@@ -72,7 +72,7 @@
 		/>
 	</div>
 
-	<div class="flex w-full flex-row flex-wrap gap-1 lg:p-4 p-1 lg:p-4 lg:hidden">
+	<div class="flex w-full flex-row flex-wrap gap-1 p-4 lg:hidden gap-4">
 		{#each home.labels as item}
 			<a
 				href="{$page.url.pathname}#{item.link}"
@@ -114,7 +114,7 @@
 	<Payoff />
 	<Contact />
 	<div class="-my-10 px-20">
-		<Hr class="w-full">Oppure</Hr>
+		<Hr class="w-full"></Hr>
 	</div>
 	<ContactWA />
 </div>

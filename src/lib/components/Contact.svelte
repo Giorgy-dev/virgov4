@@ -41,11 +41,11 @@
 </script>
 
 <div class="grid w-screen place-content-center overflow-hidden">
-	<div class="h-fit w-screen snap-center p-1 lg:p-4 lg:p-12" id="people-beyond-ai">
+	<div class="h-fit w-screen snap-center p-4 lg:p-12" id="people-beyond-ai">
 		<div
 			class="grid h-full w-full flex-col gap-0 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-4 lg:p-12"
 		>
-			<div class="flex w-full flex-col flex-wrap gap-10 p-1 lg:p-4 lg:flex-row lg:gap-0 lg:p-10">
+			<div class="flex w-full flex-col flex-wrap gap-10 p-10 lg:flex-row lg:gap-0 lg:p-10">
 				<div class="mb-4 flex flex-col gap-10 lg:max-w-1/2 lg:grow lg:p-0">
 					<h1 class="text-4xl font-medium">Parliamone!</h1>
 					<p class=" text-xl! lg:max-w-2/3">

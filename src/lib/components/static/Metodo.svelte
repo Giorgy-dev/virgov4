@@ -131,7 +131,7 @@
 	];
 </script>
 
-<div class="h-fit w-full snap-center lg:p-12" id="people-beyond-ai">
+<div class="h-fit w-full snap-center lg:p-12 p-4" id="il-metodo-virgo">
 	<div
 		class="h-full w-full flex-col gap-0 overflow-hidden border-gray-200/50 bg-gray-200/8 p-1 pt-10 lg:rounded-[12px] lg:border lg:p-4 lg:p-24"
 	>
@@ -142,7 +142,7 @@
 				performance con strumenti avanzati ma che aiutano concretamente il tuo lavoro.
 			</p>
 		</div>
-		<div class="flex flex-col gap-1 lg:grid-cols-3 lg:grid-rows-2 lg:flex-row lg:p-4">
+		<div class="flex flex-col gap-4 lg:grid-cols-3 lg:grid-rows-2 lg:flex-row lg:p-4">
 			<!--lg:mt-20 lg:-mb-20-->
 			<div class="relative lg:row-span-2 lg:min-w-1/3">
 				<div class="relative flex h-full flex-col overflow-hidden rounded-[12px]">
@@ -192,7 +192,7 @@
 					class="pointer-events-none absolute inset-px rounded-[12px] shadow-sm outline outline-black/5"
 				></div>
 			</div>
-			<div class="flex w-full flex-col gap-1 lg:p-4">
+			<div class="flex w-full flex-col gap-4 lg:px-4">
 				<div class="relative max-lg:row-start-1">
 					<div class="relative flex h-fit flex-col overflow-hidden rounded-[12px]">
 						<div class="px-8 pt-8">

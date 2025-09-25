@@ -2,12 +2,13 @@
 	import Marquee from 'svelte-fast-marquee';
 	import Icons from './Icons.svelte';
 	const play = true;
-	const speed = 150;
+	const speedDesktop = 100;
+	const speedMobile = 40;
 </script>
 
-<div class="h-fit w-full snap-center p-1 lg:p-12" id="easy-fast-virgo">
+<div class="h-fit w-full snap-center p-4 lg:p-12" id="easy-fast-virgo">
 	<div
-		class="grid h-full w-full flex-col place-items-center gap-0 overflow-hidden rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-12"
+		class="grid h-full w-full flex-col place-items-center gap-0 overflow-hidden rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-4 lg:p-12"
 	>
 		<div class="flex w-full flex-col gap-0 overflow-hidden lg:flex-row">
 			<div class="h-fit w-full lg:w-2/3">
@@ -27,11 +28,19 @@
 						<div class="w-20 bg-linear-to-l from-white from-20% to-transparent lg:w-60"></div>
 					</div>
 				</div>
-				<div class="relative z-10 flex flex-col gap-8 lg:pt-40 pb-6 lg:pb-4">
-					<Marquee pauseOnHover={false} direction="left" {speed} {play}>
+				<div class="relative z-10 hidden flex-col gap-8 pb-6 lg:flex lg:pt-40 lg:pb-4">
+					<Marquee pauseOnHover={false} gap={'32px'} direction="left" speed={speedDesktop} {play}>
 						<Icons />
 					</Marquee>
-					<Marquee pauseOnHover={false} direction="right" {speed} {play}>
+					<Marquee pauseOnHover={false} gap={'32px'} direction="right" speed={speedDesktop} {play}>
+						<Icons />
+					</Marquee>
+				</div>
+				<div class="relative z-10 flex flex-col gap-4 pb-6 lg:hidden lg:pt-40 lg:pb-4">
+					<Marquee pauseOnHover={false} gap={'16px'} direction="left" speed={speedMobile} {play}>
+						<Icons />
+					</Marquee>
+					<Marquee pauseOnHover={false} gap={'16px'} direction="right" speed={speedMobile} {play}>
 						<Icons />
 					</Marquee>
 				</div>
