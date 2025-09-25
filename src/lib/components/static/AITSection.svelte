@@ -24,11 +24,6 @@
 					>Il primo passo è una chiacchierata</a
 				>
 			</div>
-			<div class=" grow bg-gray-200/18 py-12 lg:py-40">
-				<div class=" flex h-full w-full flex-col items-center">
-					<!--Graphics-->
-				</div>
-			</div>
 		</div>
 	</div>
 </div>

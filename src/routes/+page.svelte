@@ -147,9 +147,10 @@
 	</div>
 	<ContactWA />
 </div>
-
+<!-- 
 <style>
 	canvas {
 		image-rendering: pixelated;
 	}
 </style>
+ -->

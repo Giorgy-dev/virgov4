@@ -410,7 +410,7 @@
 					class="pointer-events-none absolute inset-px rounded-[12px] shadow-sm outline outline-black/5"
 				></div>
 			</div>
-			<div class="flex w-full flex-col gap-4 lg:px-4">
+			<div class="flex w-full flex-col gap-4 lg:gap-8 lg:px-4">
 				<div class="relative max-lg:row-start-1">
 					<div class="relative flex h-fit flex-col overflow-hidden rounded-[12px]">
 						<div class="px-8 pt-8">
