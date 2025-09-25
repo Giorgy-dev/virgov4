@@ -1,5 +1,5 @@
 <!-- PAYOFF -->
-<div class="h-svh w-full snap-center p-4 lg:p-12" id="people-beyond-ai">
+<div class="h-screen w-full snap-center p-4 lg:p-12" id="people-beyond-ai">
 	<div
 		class="grid h-full w-full flex-col place-items-center gap-0 overflow-hidden rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-12"
 	>
@@ -14,7 +14,7 @@
 				</p>
 			</div>
 			<span
-				class="absolute lg:-top-[25%] -top-[40%] left-[50%] z-10 flex size-120 -translate-x-[50%] lg:-translate-x-[50%] lg:-translate-y-[25%]"
+				class="absolute lg:-top-[25%] -top-[25%] left-[50%] z-10 flex size-120 -translate-x-[50%] lg:-translate-x-[50%] lg:-translate-y-[25%]"
 			>
 				<span
 					class="animate-ping-v2 absolute inline-flex h-full w-full rounded-full border-1 border-brand-500 bg-radial from-transparent from-[65%] to-brand-500/80"

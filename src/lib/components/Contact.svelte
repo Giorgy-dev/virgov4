@@ -43,7 +43,7 @@
 <div class="grid w-screen place-content-center overflow-hidden">
 	<div class="h-fit w-screen snap-center p-4 lg:p-12" id="contact">
 		<div
-			class="grid h-full w-full flex-col gap-0 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-4 lg:p-12"
+			class="grid h-full w-full flex-col gap-0 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p- lg:p-12"
 		>
 			<div class="flex w-full flex-col flex-wrap gap-10 p-10 lg:flex-row lg:gap-0 lg:p-10">
 				<div class="mb-4 flex flex-col gap-10 lg:max-w-1/2 lg:grow lg:p-0">
@@ -54,7 +54,7 @@
 					</p>
 				</div>
 				<div class="flex w-full flex-col gap-10 lg:w-1/2">
-					<div class="flex w-full grid-cols-2 grid-rows-2 flex-col gap-1 lg:p-4 lg:grid">
+					<div class="flex w-full grid-cols-2 grid-rows-2 flex-col gap-4 lg:p-4 lg:grid">
 						<div>
 							<!--NOME-->
 							<Label class="mb-2 block">Nome</Label>
@@ -152,7 +152,7 @@
 						</div>
 					{/if}
 					<button
-						class="inline-block w-full rounded-[11px] bg-brand-600 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700"
+						class="inline-block w-full rounded-[11px] bg-brand-500 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700"
 						onclick={() => sendReq()}
 					>
 						Invia

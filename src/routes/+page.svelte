@@ -10,6 +10,8 @@
 	import Metodo from '$lib/components/static/Metodo.svelte';
 	import MarqueeSection from '$lib/components/static/MarqueeSection.svelte';
 	import CSAISection from '$lib/components/static/CSAISection.svelte';
+	import DB2BSection from '$lib/components/static/DB2BSection.svelte';
+	import AITSection from '$lib/components/static/AITSection.svelte';
 </script>
 
 <div class="flex flex-col gap-12">
@@ -27,33 +29,35 @@
 			</h2>
 		</div>
 
-		<div class="absolute bottom-0 left-0 hidden w-full flex-row gap-1 p-12 lg:flex lg:p-4">
-			{#each home.labels as item}
-				<a
-					href="{$page.url.pathname}#{item.link}"
-					class="flex w-full flex-row items-center gap-2 rounded-[12px] border border-white bg-black/16 px-4 py-2
-					text-white! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
-				>
-					<h1 class="grow text-xl font-medium text-inherit!">{item.label}</h1>
-					<svg
-						class="h-6 w-6 text-inherit! transition-all duration-200 hover:scale-120"
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						fill="none"
-						viewBox="0 0 24 24"
+		<div class="absolute bottom-0 hidden w-full place-content-center p-12 lg:grid">
+			<div class="grid grid-cols-2 gap-4">
+				{#each home.labels as item}
+					<a
+						href="{$page.url.pathname}#{item.link}"
+						class="flex w-full flex-row items-center gap-2 rounded-[12px] bg-brand-500 px-4 py-2 text-white
+					 transition-all duration-200 hover:scale-101 hover:bg-brand-700"
 					>
-						<path
-							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M19 12H5m14 0-4 4m4-4-4-4"
-						/>
-					</svg>
-				</a>
-			{/each}
+						<h1 class="grow text-xl font-medium text-inherit!">{item.label}</h1>
+						<svg
+							class="h-6 w-6 text-inherit! transition-all duration-200 hover:scale-120"
+							aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							fill="none"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M19 12H5m14 0-4 4m4-4-4-4"
+							/>
+						</svg>
+					</a>
+				{/each}
+			</div>
 		</div>
 
 		<Video
@@ -74,8 +78,8 @@
 		{#each home.labels as item}
 			<a
 				href="{$page.url.pathname}#{item.link}"
-				class="flex w-full flex-row items-center gap-2 rounded-[12px] border border-brand-500 bg-brand-500/16 px-4 py-2
-					text-brand-500! transition-all duration-200 hover:scale-101 hover:bg-brand-500/100 hover:text-white! lg:flex"
+				class="flex w-full flex-row items-center gap-2 rounded-[12px] bg-brand-500 px-4 py-2 text-white
+					 transition-all duration-200 hover:scale-101 hover:bg-brand-700"
 			>
 				<h1 class="grow text-xl font-medium text-inherit!">{item.label}</h1>
 				<svg
@@ -109,6 +113,8 @@
 
 	<CSAISection />
 	<Metodo />
+	<DB2BSection />
+	<AITSection />
 	<MarqueeSection />
 	<Payoff />
 	<Contact />

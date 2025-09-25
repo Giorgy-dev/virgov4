@@ -10,7 +10,7 @@
 			<a
 				target="_blank"
 				href="https://wa.me/393333218804"
-				class="link link-hover inline-block w-fit rounded-[11px] bg-brand-600 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700 hover:text-white! lg:max-w-fit"
+				class="link link-hover inline-block w-fit rounded-[11px] bg-brand-500 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700  lg:max-w-fit"
 			>
 				<div class="flex flex-row gap-3">
 					<div class="grid place-content-center">
