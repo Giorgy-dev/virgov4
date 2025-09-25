@@ -41,7 +41,7 @@
 </script>
 
 <div class="grid w-screen place-content-center overflow-hidden">
-	<div class="h-fit w-screen snap-center p-4 lg:p-12" id="people-beyond-ai">
+	<div class="h-fit w-screen snap-center p-4 lg:p-12" id="contact">
 		<div
 			class="grid h-full w-full flex-col gap-0 rounded-[24px] border border-gray-200/50 bg-gray-200/8 p-1 lg:p-4 lg:p-12"
 		>
