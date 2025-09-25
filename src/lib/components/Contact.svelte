@@ -153,7 +153,7 @@
 					{/if}
 					<button
 						class="inline-block w-full rounded-[11px] bg-brand-500 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700"
-						onclick={() => sendReq()}
+						onclick={() => {sendReq(), alert('Mail inviata con successo!')}}
 					>
 						Invia
 					</button>

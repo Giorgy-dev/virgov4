@@ -52,86 +52,295 @@
 	];
 	const FRAMES2 = [
 		`
-    . . x . . . . . .
-    . . x x x x x x .
-    x . . . . . . . .
-    . . x x x x x x .
-    . . x . . . . . .
-    `,
+		. . x . . . . . .
+		. . x x x x x x .
+		x . . . . . . . .
+		. . x x x x x x .
+		. . x . . . . . .
+		`,
 		`
-    . . x . . . . . .
-    . . x x x x x x .
-    x . . . . . . . .
-    . . x x x x x x .
-    . . x . . . . . .
-    `,
+		. . x . . . . . .
+		. . x x x x x x .
+		x . . . . . . . .
+		. . x x x x x x .
+		. . x . . . . . .
+		`,
 		`
-    . x x . . . . . .
-    . . . x x x x x .
-    . x . . . . . . .
-    . . . x x x x x .
-    . x x . . . . . .
-    `,
+		. x x . . . . . .
+		. . . x x x x x .
+		. x . . . . . . .
+		. . . x x x x x .
+		. x x . . . . . .
+		`,
 		`
-    . x x x . . . . .
-    . . . . x x x x .
-    . . x . . . . . .
-    . . . . x x x x .
-    . x x x . . . . .
-    `,
+		. x x x . . . . .
+		. . . . x x x x .
+		. . x . . . . . .
+		. . . . x x x x .
+		. x x x . . . . .
+		`,
 		`
-    . . x x x . . . .
-    . x . . . x x x .
-    . . . x . . . . .
-    . x . . . x x x .
-    . . x x x . . . .
-    `,
+		. . x x x . . . .
+		. x . . . x x x .
+		. . . x . . . . .
+		. x . . . x x x .
+		. . x x x . . . .
+		`,
 		`
-    . . . x x x . . .
-    . x x . . . x x .
-    . . . . x . . . .
-    . x x . . . x x .
-    . . . x x x . . .
-    `,
+		. . . x x x . . .
+		. x x . . . x x .
+		. . . . x . . . .
+		. x x . . . x x .
+		. . . x x x . . .
+		`,
 		`
-    . . . . x x x . .
-    . x x x . . . x .
-    . . . . . x . . .
-    . x x x . . . x .
-    . . . . x x x . .
-    `,
+		. . . . x x x . .
+		. x x x . . . x .
+		. . . . . x . . .
+		. x x x . . . x .
+		. . . . x x x . .
+		`,
 		`
-    . . . . . x x x .
-    . x x x x . . . .
-    . . . . . . x . .
-    . x x x x . . . .
-    . . . . . x x x .
-    `,
+		. . . . . x x x .
+		. x x x x . . . .
+		. . . . . . x . .
+		. x x x x . . . .
+		. . . . . x x x .
+		`,
 		`
-    . . . . . . x x .
-    . x x x x x . . .
-    . . . . . . . x .
-    . x x x x x . . .
-    . . . . . . x x .
-    `,
+		. . . . . . x x .
+		. x x x x x . . .
+		. . . . . . . x .
+		. x x x x x . . .
+		. . . . . . x x .
+		`,
 		`
-    . . . . . . x . .
-    . x x x x x x . .
-    . . . . . . . . x
-    . x x x x x x . .
-    . . . . . . x . .
-    `,
+		. . . . . . x . .
+		. x x x x x x . .
+		. . . . . . . . x
+		. x x x x x x . .
+		. . . . . . x . .
+		`,
 		`
-    . . . . . . x . .
-    . x x x x x x . .
-    . . . . . . . . x
-    . x x x x x x . .
-    . . . . . . x . .
-    `
+		. . . . . . x . .
+		. x x x x x x . .
+		. . . . . . . . x
+		. x x x x x x . .
+		. . . . . . x . .
+		`
+	];
+	const FRAMES3 = [
+		`
+	. . . . . . . .
+	. . . . . . . x 
+	. . . . . . . .
+	. . . . . x . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . x 
+	. . . . . . . .
+	. . . . . x . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . . 
+	. . . . . . . x 
+	. . . . x . . . 
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	. . . x . . . x
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	. . x . . . x .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	x . . . . x . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	x . . . x . . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	x . . x . . . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	x . x . . . . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	. . . . . . . .
+	x x . . . . . .
+	`,
+		`
+	. . . . . . . .
+	. . . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	`,
+		`
+	. . . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	`,
+		`
+	x x . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	`,
+		`
+	x x . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	x x . . . . . .
+	`
+	];
+
+	const FRAMES4 = [
+		`
+	. . . . . . . . . . . . .
+	. . . . . . x . . . . . .
+	. . . . . x . x . . . . .
+	. . . . x . . . x . . . .
+	. . . x . . . . . x . . .
+	. . x . . . . . . . x . .
+	. x . . . . . . . . . x .
+	. . x . . . . . . . x . .
+	. . . x . . . . . x . . .
+	. . . . x . . . x . . . .
+	. . . . . x . x . . . . .
+	. . . . . . x . . . . . .
+	. . . . . . . . . . . . .
+	`,
+		`
+	. . . . . . . . . . . . .
+	. . . . . . x . . . . . .
+	. . . . . x . x . . . . .
+	. . . . x . . . x . . . .
+	. . . x . . . . . x . . .
+	. . x . . . . . . . x . .
+	. x . . . . x . . . . x .
+	. . x . . . . . . . x . .
+	. . . x . . . . . x . . .
+	. . . . x . . . x . . . .
+	. . . . . x . x . . . . .
+	. . . . . . x . . . . . .
+	. . . . . . . . . . . . .
+	`,
+		`
+	. . . . . . . . . . . . .
+	. . . . . . x . . . . . .
+	. . . . . x . x . . . . .
+	. . . . x . . . x . . . .
+	. . . x . . . . . x . . .
+	. . x . . . x . . . x . .
+	. x . . . x x x . . . x .
+	. . x . . . x . . . x . .
+	. . . x . . . . . x . . .
+	. . . . x . . . x . . . .
+	. . . . . x . x . . . . .
+	. . . . . . x . . . . . .
+	. . . . . . . . . . . . .
+	`,
+		`
+	. . . . . . . . . . . . .
+	. . . . . . x . . . . . .
+	. . . . . x . x . . . . .
+	. . . . x . . . x . . . .
+	. . . x . . x . . x . . .
+	. . x . . x x x . . x . .
+	. x . . x x x x x . . x .
+	. . x . . x x x . . x . .
+	. . . x . . x . . x . . .
+	. . . . x . . . x . . . .
+	. . . . . x . x . . . . .
+	. . . . . . x . . . . . .
+	. . . . . . . . . . . . .
+	`,
+		`
+	. . . . . . . . . . . . .
+	. . . . . . x . . . . . .
+	. . . . . x . x . . . . .
+	. . . . x . x . x . . . .
+	. . . x . x x x . x . . .
+	. . x . x x x x x . x . .
+	. x . x x x x x x x . x .
+	. . x . x x x x x . x . .
+	. . . x . x x x . x . . .
+	. . . . x . x . x . . . .
+	. . . . . x . x . . . . .
+	. . . . . . x . . . . . .
+	. . . . . . . . . . . . .
+	`,
+		`
+	. . . . . . . . . . . . .
+	. . . . . . x . . . . . .
+	. . . . . x x x . . . . .
+	. . . . x x x x x . . . .
+	. . . x x x x x x x . . .
+	. . x x x x x x x x x . .
+	. x x x x x x x x x x x .
+	. . x x x x x x x x x . .
+	. . . x x x x x x x . . .
+	. . . . x x x x x . . . .
+	. . . . . x x x . . . . .
+	. . . . . . x . . . . . .
+	. . . . . . . . . . . . .
+	`,
+		`
+	. . . x x x x x x x . . .
+	. . x x x x . x x x x . .
+	. x x x x . . . x x x x .
+	x x x x . . . . . x x x x
+	x x x . . . . . . . x x x
+	x x . . . . . . . . . x x
+	x . . . . . . . . . . . x
+	x x . . . . . . . . . x x
+	x x x . . . . . . . x x x
+	x x x x . . . . . x x x x
+	. x x x x . . . x x x x .
+	. . x x x x . x x x x . .
+	. . . x x x x x x x . . .
+	`,
+		`
+	. . . x x x x x x x . . .
+	. . x x x x . x x x x . .
+	. x x x x . . . x x x x .
+	x x x x . . . . . x x x x
+	x x x . . . . . . . x x x
+	x x . . . . . . . . . x x
+	x . . . . . . . . . . . x
+	x x . . . . . . . . . x x
+	x x x . . . . . . . x x x
+	x x x x . . . . . x x x x
+	. x x x x . . . x x x x .
+	. . x x x x . x x x x . .
+	. . . x x x x x x x . . .
+	`
 	];
 </script>
 
-<div class="h-fit w-full snap-center lg:p-12 p-4" id="il-metodo-virgo">
+<div class="h-fit w-full snap-center p-4 lg:p-12" id="il-metodo-virgo">
 	<div
 		class="h-full w-full flex-col gap-0 overflow-hidden border-gray-200/50 bg-gray-200/8 p-1 pt-10 lg:rounded-[12px] lg:border lg:p-4 lg:p-24"
 	>
@@ -173,7 +382,7 @@
 							</Accordion>
 						</div>
 					</div>
-					<div class="relative h-[20vh] min-h-60 w-full grow px-10 lg:h-full">
+					<!-- 					<div class="relative h-[20vh] min-h-60 w-full grow px-10 lg:h-full">
 						<div
 							class="top-10 bottom-0 grid h-full place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
 						>
@@ -185,6 +394,15 @@
 									class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
 								></div>
 							</div>
+						</div>
+					</div> -->
+					<div class="relative h-[20vh] min-h-60 w-full grow px-10 lg:h-full">
+						<div
+							class="top-10 bottom-0 grid h-full min-h-[16vh] place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
+						>
+							<Animated frames={FRAMES4} let:using={{ map }}>
+								<PixelMap scale={20} {map} color={'rgb(242, 0, 80)'} />
+							</Animated>
 						</div>
 					</div>
 				</div>
@@ -272,13 +490,12 @@
 							<div
 								class="top-10 bottom-0 grid h-full place-items-center overflow-hidden rounded-t-[12px] bg-gray-200/18 lg:relative"
 							>
-								<div class="relative flex w-full flex-col items-center overflow-hidden lg:absolute">
-									<div
-										class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
-									></div>
-									<div
-										class="rotate-loop -my-10 h-100 w-100 rounded-[40%] border-2 border-brand-500 bg-radial from-transparent from-[70%] to-brand-500/80 lg:h-240 lg:w-240"
-									></div>
+								<div
+									class="brand-colored relative flex w-full flex-col items-center overflow-hidden lg:absolute"
+								>
+									<Animated frames={FRAMES3} let:using={{ map }}>
+										<PixelMap scale={20} {map} color={'rgb(201, 201, 201)'} />
+									</Animated>
 								</div>
 							</div>
 						</div>

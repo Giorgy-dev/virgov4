@@ -1,8 +1,8 @@
 <script lang="ts">
 	import home from '$lib/jsons/home.json';
-	import { Hr, Video } from 'flowbite-svelte';
+	import { Hr } from 'flowbite-svelte';
 	import heroVideo from '$lib/assets/videos/abstract-hero-3.mp4';
-	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_3.svg';
+	import logo from '$lib/assets/svgs/QST3_LOGHI/QST3_EXTENDED_4.svg';
 	import { page } from '$app/stores';
 	import Contact from '$lib/components/Contact.svelte';
 	import Payoff from '$lib/components/static/Payoff.svelte';
@@ -12,6 +12,24 @@
 	import CSAISection from '$lib/components/static/CSAISection.svelte';
 	import DB2BSection from '$lib/components/static/DB2BSection.svelte';
 	import AITSection from '$lib/components/static/AITSection.svelte';
+	//import { onMount } from 'svelte';
+
+	/* 	let videoElement: HTMLVideoElement;
+	let canvasElement: HTMLCanvasElement;
+	let ctx: CanvasRenderingContext2D;
+	const pixelFactor = 20;
+
+	onMount(() => {
+		ctx = (<HTMLCanvasElement>canvasElement).getContext('2d')!;
+		ctx.canvas.width = window.innerWidth / pixelFactor;
+		ctx.canvas.height = window.innerHeight / pixelFactor;
+		requestAnimationFrame(play);
+	});
+
+	function play() {
+		ctx.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
+		requestAnimationFrame(play);
+	} */
 </script>
 
 <div class="flex flex-col gap-12">
@@ -60,9 +78,9 @@
 			</div>
 		</div>
 
-		<Video
+		<!--bind:this={videoElement}-->
+		<video
 			src={heroVideo}
-			trackSrc="abstract-hero-2.mp4"
 			muted
 			loop
 			autoplay
@@ -72,6 +90,12 @@
 			controlslist="nofullscreen nodownload noremoteplayback"
 			class="absolute top-0 left-0 -z-10 h-dvh w-screen object-cover"
 		/>
+		<!-- 			<canvas
+				class="absolute top-0 left-0 -z-10 h-dvh w-screen object-cover"
+				bind:this={canvasElement}
+				id="videoCTX"
+				>VideoCTX
+			</canvas> -->
 	</div>
 
 	<div class="flex w-full flex-row flex-wrap gap-4 p-4 lg:hidden">
@@ -112,8 +136,8 @@
 	-->
 
 	<CSAISection />
-	<Metodo />
 	<DB2BSection />
+	<Metodo />
 	<AITSection />
 	<MarqueeSection />
 	<Payoff />
@@ -123,3 +147,9 @@
 	</div>
 	<ContactWA />
 </div>
+
+<style>
+	canvas {
+		image-rendering: pixelated;
+	}
+</style>

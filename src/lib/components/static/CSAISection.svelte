@@ -116,6 +116,7 @@
 					Questo sistema ti permetterà di azzerare i tempi morti e aumentare la produttività della
 					tua azienda.
 				</p>
+        <div class="hidden lg:block lg:min-h-10"></div>
 				<a
 					href="{$page.url.pathname}#contact"
 					class="link link-hover inline-block w-fit rounded-[11px] bg-brand-500 px-6 py-2 text-white transition-all duration-200 hover:scale-101 hover:bg-brand-700 lg:max-w-fit"
@@ -123,7 +124,7 @@
 				>
 			</div>
 			<div class=" grow bg-gray-200/18 py-12 lg:py-40">
-				<div class=" flex h-full w-full flex-col items-center">
+				<div class=" flex h-full w-full flex-col items-center lg:pt-10">
 					<Marquee pauseOnHover={false} direction="left" speed={120} play={true}>
 						<Animated frames={FRAMES} let:using={{ map }}>
 							<PixelMap scale={10} {map} color={'rgb(201, 201, 201)'} />
