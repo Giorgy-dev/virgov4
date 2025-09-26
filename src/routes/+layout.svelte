@@ -59,40 +59,57 @@
 		</div> -->
 
 		<!--
-
 		IUBENDA INTEGRATION
-		<div>
-			<span class="footer-title">Legal</span>
-			<a
-				href="https://www.iubenda.com/privacy-policy/51115786"
-				class="iubenda-nostyle iubenda-noiframe iubenda-embed iubenda-noiframe link link-hover"
-				title="Privacy Policy ">Privacy Policy</a
-			>
-			<script type="text/javascript">
-				(function (w, d) {
-					var loader = function () {
-						var s = d.createElement('script'),
-							tag = d.getElementsByTagName('script')[0];
-						s.src = 'https://cdn.iubenda.com/iubenda.js';
-						tag.parentNode.insertBefore(s, tag);
-					};
-					if (w.addEventListener) {
-						w.addEventListener('load', loader, false);
-					} else if (w.attachEvent) {
-						w.attachEvent('onload', loader);
-					} else {
-						w.onload = loader;
-					}
-				})(window, document);
-			</script>
-			<a
-				href="https://www.iubenda.com/privacy-policy/51115786/cookie-policy"
-				class="iubenda-nostyle iubenda-noiframe iubenda-embed iubenda-noiframe link link-hover"
-				title="Cookie Policy">Cookie Policy</a
-			>
-
-			<btn class="iubenda-cs-preferences-link link link-hover"> Modifica le tue preferenze </btn>
-		</div>
 		-->
+		<div>
+			<h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-white">Legals</h2>
+			<FooterLinkGroup>
+				<FooterLink
+					target="_blank"
+					class="mb-4"
+					href="https://www.iubenda.com/privacy-policy/51115786"
+					title="Privacy Policy ">Privacy Policy</FooterLink
+				>
+				<script type="text/javascript">
+					(function (w, d) {
+						var loader = function () {
+							var s = d.createElement('script'),
+								tag = d.getElementsByTagName('script')[0];
+							s.src = 'https://cdn.iubenda.com/iubenda.js';
+							tag.parentNode.insertBefore(s, tag);
+						};
+						if (w.addEventListener) {
+							w.addEventListener('load', loader, false);
+						} else if (w.attachEvent) {
+							w.attachEvent('onload', loader);
+						} else {
+							w.onload = loader;
+						}
+					})(window, document);
+				</script>
+				<FooterLink
+					target="_blank"
+					class="mb-4"
+					href="https://www.iubenda.com/privacy-policy/51115786/cookie-policy"
+					title="Cookie Policy ">Cookie Policy</FooterLink
+				><script type="text/javascript">
+					(function (w, d) {
+						var loader = function () {
+							var s = d.createElement('script'),
+								tag = d.getElementsByTagName('script')[0];
+							s.src = 'https://cdn.iubenda.com/iubenda.js';
+							tag.parentNode.insertBefore(s, tag);
+						};
+						if (w.addEventListener) {
+							w.addEventListener('load', loader, false);
+						} else if (w.attachEvent) {
+							w.attachEvent('onload', loader);
+						} else {
+							w.onload = loader;
+						}
+					})(window, document);
+				</script>
+			</FooterLinkGroup>
+		</div>
 	</div>
 </Footer>
