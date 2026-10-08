@@ -1,5 +1,8 @@
 import { json } from '@sveltejs/kit';
 
+export const prerenderer = true;
+export const entries = () => [{ }];
+
 export function GET() {
 	return json({
   "associatedApplications": [
